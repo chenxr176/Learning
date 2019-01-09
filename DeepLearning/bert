@@ -1,0 +1,29 @@
+Bert:
+pre-training of deep bidirectional transformers for language understanding
+
+BERT: Bidirectional Encoder Representations from Transformers
+包括：
+	预训练
+	双向的编码特征
+	深度transformer结构
+	以语言模型为训练目标
+
+文本表征：
+	文本表征是文本的“数字形式“表达：
+	
+	自然语言是离散的
+	
+	文本表征：one-hot, tf-idf
+	word2vec, doc2vec, glove, fastext...
+	
+词向量
+	分布式假设：
+		相同上下文语境的词有相似的含义
+	词向量的弊端：
+		每个词一个固定表征
+	结合上下文的动态特征：
+		ELMo GPT BERT等基于语言模型的表征
+		语言模型：
+			1.本质上概率模型
+			2.隐马尔可夫链
+			3.训练语言的套路
